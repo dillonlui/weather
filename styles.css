@@ -1,5 +1,9 @@
-#conditionDiv {
-    display: inline;
+body {
+    font-family: 'Merriweather', serif;
+}
+
+#condition {
+    text-transform: capitalize;
 }
 
 .imperialTemp:after {
