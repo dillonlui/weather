@@ -43,7 +43,7 @@ function displayData(data) {
     document.getElementById('city').innerText = data.location
     document.getElementById('condition').innerText = data.weather.description
     document.getElementById('weatherIcon').src = `http://openweathermap.org/img/wn/${data.weather.icon}@2x.png`
-    document.getElementById('temp').innerText = `Currently: ${data.temp}`
+    document.getElementById('temp').innerText = data.temp
     document.getElementById('feelsLike').innerText = `Feels like: ${data.feelsLike}`
     document.getElementById('humidity').innerText = `Humidity: ${data.humidity}%`
     document.getElementById('wind').innerText = `Wind Speed: ${data.wind.speed}`
