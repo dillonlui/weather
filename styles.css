@@ -1,0 +1,16 @@
+#conditionDiv {
+    display: inline;
+}
+
+.imperialTemp:after {
+    content: '\2109';
+}
+.metricTemp:after {
+    content: '\2103';
+}
+.imperialSpeed:after {
+    content: 'mph';
+}
+.metricSpeed:after {
+    content: 'kph'
+}
